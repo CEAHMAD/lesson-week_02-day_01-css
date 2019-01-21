@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AHMAD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+        <hr class="par">
+        
+
+    <header>
+    <h1>JOE GOHNSON </h1>
+    <h2> About Me | </h2>  <h2><a href= "file:///Users/ahmad/wdi-infinity/lesson-week_02-day_01-css/index1.html"> Portfolio </a></h2>
+    <hr>
+    </header>
+
+
+    <a class ="logo" href ="file:///Users/ahmad/w" > <img src="WDI.png"/> </a>
+
+     
+
+   
+    
+   <nav>
+       
+
+    <h3> I ENJOY LIFE AS A DEVELOPER</h3>
+    <p>I'm Joe Johnson, a Developer based </p>     
+    <p>in NYC.I Have ten years of </p>
+    <p>experience in the graphic design world</p>  
+    <p>pspecializing in the creation of responsive websites.</p>
+                
+       
+       
+         
+        
+        </nav>
+       
+        
+       
+        
+        
+        
+    
+<footer>
+
+<hr>
+
+
+        <h2><a href= "#Week02"> Facebook | </a></h2>
+        <h2><a href= "#Week02"> Twitter | </a></h2>
+        <h2><a href= "#Week02"> Instagram |</a></h2>
+        <h2><a href= "#Week02"> Linkln </a></h2>
+
+
+        <hr class="par">
+</footer>
+    
+        
+</body>
+</html>
+
+/////////////////////////////////////////////////////////////////////
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AHMAD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+        <hr class="par">
+        
+
+    <header>
+    <h1>JOE GOHNSON </h1>
+    <h2><a href= "file:///Users/ahmad/wdi-infinity/lesson-week_02-day_01-css/index.html"> About Me </a> | </h2>  <h2> Portfolio </h2>
+    <hr>
+    </header>
+
+
+    
+
+     
+
+   
+    
+   <nav class = "nav1">
+       
+
+    <h4>Experience</h4>
+    <p class = "p1" > I recently graduated from a Front-End Web Development course at General Assembly where I learned HTML, CSS, JavaScript, jQuery and how to be an awesome Front-End Web Developer! During my spare time, I enjoy senior water aerobics, pickling, and spending time with my goldfish, Jerry. </p>     
+    
+                
+       
+    
+    
+    <h5>Relevant Experience</h5>
+      <ul><li> <h5>Web Developer, Relaxr 2015 - present</h5> </li></ul> 
+    <p class ="p1" >Developed a multi-column layout blog, landing page, and contact forms that render on mobile devices</p>
+    <a class ="image1"> <img src="3.png"/> </a>
+        
+
+
+
+    <ul><li> <h5>Web Developer, Startup Matchmaker 2015 - present</h5> </li></ul> 
+    <p class="p1">Used a design team's wireframes to develop this company's responsive homepage.</p>
+    <a class ="image1"> <img src="2.png"/> </a>
+
+
+
+    <ul><li> <h5>Web Developer, CitiPix 2015 – present</h5> </li></ul> 
+    <p class="p1">Built web app prototype that allows users to store and quickly retrieve photos using keywords.</p>
+    <a class ="image1"> <img src="a.png"/> </a>
+
+
+        </nav1>
+       
+        
+       
+        
+        
+        <h6>EDUCATION</h6>
+        <p class ="p1">General Assembly — FEWD 2015</p> 
+        <p class ="p1">College of Soft Knocks — B.S. 2009</p>      
+    
+<footer>
+
+
+
+
+
+
+        
+</footer>
+    
+        
+</body>
+</html>
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+body {
+
+
+}
+
+
+
+header {
+
+   text-align: center ;
+    font-size: 160%;
+    
+    
+}
+h2{
+    display: inline ;
+}
+
+img {
+   
+
+    clear: both;
+    border-width: 0px;
+    box-sizing: border-box;
+border-width: 0px 50px 10px 10px;    
+margin: 20px 60px 20px 20px  ;   
+
+border: solid #000000  0.1px;
+padding: 5px;
+width: 40% ;
+height: 40%  ;
+float: right ; 
+height: auto;
+}
+
+.image1 {
+
+    
+    
+    clear: both;
+    border-width: 0px;
+    box-sizing: border-box;   
+margin: 15px 100px ;   
+padding: 0;
+width: 90% ;
+height: 50%  ; 
+float: left;
+
+}
+
+.par {
+
+    margin: 20px 20px ;
+    padding: 5px ;
+    color: #000000 ;
+    background-color: #000000 ; 
+    width: 95% ; 
+     
+}
+
+nav {
+
+box-sizing: border-box ;
+border-width: 0px 10px 50px 10px;    
+margin: 0px 20px 20px 20px;
+padding: 80px;
+width: 50% ;
+height: 50% ;
+float: left;
+font-size: 150% ;
+    
+    
+    }
+
+    .nav1 { 
+
+box-sizing: border-box ;
+border-width: 25px 25px 25px 25px;    
+margin: 25px 25px 25px 25px;
+padding: 20px 10px;
+width: 100% ;
+height: 50% ;
+ 
+
+ }
+    p{
+
+        font-size: 110% ;
+       
+    }
+
+    .p1 {
+
+
+   font-size: 90% ;
+       
+    }
+    
+
+hr {
+    
+    margin: 20px 20px 20px 90px ;
+    width: 80% ; 
+    color: #000000 ;
+    background-color: #000000; 
+    
+}
+
+* {
+
+    background-color: rgb(220, 225, 226) ;
+}
+
+footer  {
+
+    text-align: center;
+}
